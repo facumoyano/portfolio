@@ -23,11 +23,15 @@ const About = () => {
             <h2 className="head-text">
                 Sobre <span>Mí</span> <br />
             </h2>
-            <div className="app__skills-container">
-                <motion.div className="app__about-list">
+            <div className="app__skills-container ">
+                <motion.div
+                    className="app__about-list"
+                    whileInView={{ opacity: [0, 1] }}
+                    transition={{ duration: 0.5 }}
+                >
                     <p>
                         Mi nombre es Facundo, actualmente me encuentro en
-                        búsqueda mi primer empleo como desarollador.
+                        búsqueda empleo como desarollador.
                     </p>
 
                     <p>
