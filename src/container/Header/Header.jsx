@@ -58,7 +58,7 @@ const Header = () => (
             whileInView={scaleVariants.whileInView}
             className="app__header-circles"
         >
-            {[images.javascript, images.react, images.vue].map(
+            {[images.javascript, images.react, images.nextjs].map(
                 (circle, index) => (
                     <div
                         className="circle-cmp app__flex"
@@ -72,4 +72,4 @@ const Header = () => (
     </div>
 );
 
-export default AppWrap(Header, "home");
+export default AppWrap(Header, "Inicio");

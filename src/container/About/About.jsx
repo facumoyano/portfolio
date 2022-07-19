@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { HiOutlineArrowRight } from "react-icons/hi";
 
-import { AppWrap } from "../../wrapper";
+import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
 
 import "./About.scss";
@@ -82,4 +82,8 @@ const About = () => {
     );
 };
 
-export default AppWrap(About, "about");
+export default AppWrap(
+    MotionWrap(About, "app__skills"),
+    "Sobremí",
+    "app__whitebg"
+);

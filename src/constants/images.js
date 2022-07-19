@@ -9,7 +9,7 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import vue from '../assets/vue.png';
-
+import nextjs from '../assets/nextjs.png'
 import circle from '../assets/circle.svg';
 import fotowork from '../assets/fotowork.png'
 
@@ -27,5 +27,6 @@ export default {
   sass,
   vue,
   circle,
-  fotowork
+  fotowork,
+  nextjs
 };
