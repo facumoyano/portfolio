@@ -42,19 +42,23 @@ const Navbar = () => {
                     >
                         <HiX onClick={() => setToggle(false)} />
                         <ul>
-                            {["home", "about", "work", "skills", "contact"].map(
-                                (item) => (
-                                    <li key={item}>
-                                        <a
-                                            href={`#${item}`}
-                                            onClick={() => setToggle(false)}
-                                        >
-                                            {item}
-                                        </a>
-                                    </li>
-                                )
-                            )}
-                            <li style={{ bottom: 0, position: "absolute" }}>
+                            {[
+                                "Inicio",
+                                "Sobremí",
+                                "Proyectos",
+                                "Formación",
+                                "Contacto",
+                            ].map((item) => (
+                                <li key={item}>
+                                    <a
+                                        href={`#${item}`}
+                                        onClick={() => setToggle(false)}
+                                    >
+                                        {item}
+                                    </a>
+                                </li>
+                            ))}
+                            <li style={{ bottom: 120, position: "absolute" }}>
                                 <a
                                     href="https://www.linkedin.com/in/facundo-moyano-/"
                                     target="_blank"

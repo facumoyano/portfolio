@@ -31,7 +31,7 @@ const About = () => {
                 >
                     <p>
                         Mi nombre es Facundo, actualmente me encuentro en
-                        búsqueda empleo como desarollador.
+                        búsqueda de empleo como desarollador.
                     </p>
 
                     <p>
@@ -47,7 +47,7 @@ const About = () => {
                         cumplimiento de las metas organizacionales.
                     </p>
                     <p>
-                        Mi mayor capital son mi personalidad, mi ganas de
+                        Mi mayor capital son mi personalidad, mis ganas de
                         crecer, de poder tomar experiencia y poner de mi parte
                         la actitud de aprendizaje continuamente para ser parte
                         de un objetivo personal y profesional.
