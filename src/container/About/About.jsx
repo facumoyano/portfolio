@@ -52,9 +52,13 @@ const About = () => {
                         la actitud de aprendizaje continuamente para ser parte
                         de un objetivo personal y profesional.
                     </p>
-                    <button type="button" className="p-text">
+                    <a
+                        href="./CV-Facundo-Moyano.pdf"
+                        target="blank"
+                        className="p-text"
+                    >
                         Descarga mi CV <HiOutlineArrowRight />
-                    </button>
+                    </a>
                 </motion.div>
                 <motion.div className="app__skills-list">
                     {skills?.map((skill) => (
